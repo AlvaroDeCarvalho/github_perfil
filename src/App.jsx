@@ -2,7 +2,7 @@
 //sem precisar passar ele no caminho
 import { useState } from 'react'
 
-import Perfil from './components/perfil'
+import Perfil from './components/Perfil'
 import ReposList from './components/ReposList'
 function App() {
   const [nomeInserido, setInserirNome] = useState('')
